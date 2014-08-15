@@ -1,0 +1,194 @@
+body{
+	padding: 0px;
+	margin: 0px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div{
+	margin-left: 0px;
+}
+
+.menu{
+	margin-left: 10px;
+	margin-top: 0;
+	padding: 10px;
+	background: #f2f2f2;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	top: 0;
+}
+
+.menu:hover{
+	background: #9ee134;
+}
+
+.header-bar{
+	display: block;
+	font-family: Arial, sans-serif;
+	color: gray;
+	font-size: .85em;
+	margin-top: 2px;	
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 90%;
+	vertical-align: top;
+}
+
+.topright{
+	position: absolute !important;
+	margin-left: 80%;
+	margin-right: 2%;
+	margin-top: -250px;
+	text-align: justify;
+}
+
+.fulljustify {
+  text-align: justify;
+}
+
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+div .logo{
+	width: 100%;
+}
+
+.logo img{
+	display: block;
+	width: 35%;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+}
+
+div .grey-bkrd{
+	background-color: #e6f9e6;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+}
+
+p{
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: gray;
+	line-height: 110%;
+}
+
+.image-bank{
+	width: 100%;
+}
+
+.image-bank img{
+	position: absolute;
+	width: 100%;
+	clip: rect(0px,1200px,300px,0px);
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intro p{
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: gray;
+	text-align: justify;
+	margin: 30px;
+	line-height: 200%;
+}
+
+.btn-primary{
+	background: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.footer{
+	position: absolute;
+	bottom: -500px;
+	background: black;
+	width: 100%;
+	height: 200px;
+	color: green;
+	font-family: arial;
+	font-size: .75em;
+}
+
+section {
+	display: inline-block;
+	width: 150px;
+	margin: 20px;
+}
+
+.footer ul li{
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-left: 10px;
+}
+
+.footer-right{
+	display: inline-block;
+	margin-left: 50%;
+	margin-right: 0;
+	vertical-align: top;
+}
+
+.pull-right{
+	float: right;
+	margin-right: 10px;
+}
+
+.pull-left{
+	width: 30px;
+}
+
+.container .pull-right ul {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.container .pull-left ul {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #9ee134;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #9ee134;
+}
